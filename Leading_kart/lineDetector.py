@@ -55,7 +55,7 @@ def mathe():
 				mask = cv2.inRange(hsv, lower_yellow, upper_yellow)
 				mask2=cv2.inRange(hsv, lower_yellow, upper_yellow)
 				res = cv2.bitwise_and(frame,frame, mask= mask)
-                cv2.imshow('res',res)
+                                cv2.imshow('res',res)
 
 				ROI=np.array([[	(round(w*0.167),h),(round(w*0.167),round(h*0.5)),(round(0.83*w),round(0.5*h)),(round(w*0.83),h)]],dtype= np.int32)
 				ROIL=np.array([[(0,h),(0,0),(round(0.167*w),0),(round(w*0.167),h)]],dtype= np.int32)
