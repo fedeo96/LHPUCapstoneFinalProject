@@ -40,3 +40,7 @@ The highlighted line below shows the proportional and derivative control for the
 
 Similarly for the trailing kart, proportional and derivative **throttle control** was implemented based on distance between karts and steering angle.
 The **steering angle control** was based on the input provided by the OpenCV code.
+
+### **VIDEO DEMONSTRATION**
+
+![video.gif](Images/video.gif)
