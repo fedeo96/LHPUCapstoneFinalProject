@@ -9,7 +9,7 @@ kart which follows the leading kart based on a green sign on the back of the lea
 
 The specifications of the karts are as follows:
 
-![img.png](img.png)
+![img_8.png](img_8.png)
 
 ### **HARDWARE AND COMMUNICATION PROTOCOLS**
 
